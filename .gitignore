@@ -1,11 +1,31 @@
-/target
-/.settings
-/logs
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+### STS ###
+.apt_generated
 .classpath
+.factorypath
 .project
-*.class
-*.jar
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
 .idea
-com-engine/BOOT-INF/
-com-engine/META-INF/MANIFEST.MF
-com-engine/META-INF/
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### VS Code ###
+.vscode/
