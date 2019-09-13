@@ -1,0 +1,11 @@
+/target
+/.settings
+/logs
+.classpath
+.project
+*.class
+*.jar
+.idea
+com-engine/BOOT-INF/
+com-engine/META-INF/MANIFEST.MF
+com-engine/META-INF/
